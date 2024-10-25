@@ -6,7 +6,6 @@ class AddressBook {
     static ArrayList<Contact> contacts = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
 
-    // UC 1: Add Contact
     public static void addContact() {
         System.out.print("Enter first name: ");
         String firstName = scanner.next();
@@ -23,5 +22,6 @@ class AddressBook {
         String pincode = scanner.next();
 
         contacts.add(new Contact(id, name, mobileNumber, address, pincode));
+        System.out.println("Thankyou");
     }
 }
