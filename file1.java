@@ -3,7 +3,6 @@ class AddressBook {
     static ArrayList<Contact> contacts = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
 
-    // UC 1: Add Contact
     public static void addContact() {
         System.out.print("Enter first name: ");
         String firstName = scanner.next();
